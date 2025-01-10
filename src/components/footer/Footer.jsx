@@ -5,5 +5,4 @@ function FooterContent(){
         </footer>
     )
 }
-
 export default FooterContent;
