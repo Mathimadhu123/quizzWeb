@@ -1,0 +1,26 @@
+/* Centers the entire quiz in the middle of the screen */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh; /* Makes sure it takes the full height of the screen */
+  }
+  
+  /* Centers the question text */
+  .text {
+    text-align: center;
+  }
+  
+  /* Centers buttons properly */
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 70%;
+  }
+  .cust{
+  margin-top: 10%;
+  }

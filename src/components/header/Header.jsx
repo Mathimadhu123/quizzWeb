@@ -1,7 +1,7 @@
 function Header(){
     return(
-        <header>
-            <h1>Welcome to the Quizz Application</h1>
+        <header class="customize p-4 " >
+            <h1>Welcome to the MERN Quizz Application</h1>
             <p>Test your knowledge with fun quizzes!</p>
         </header>
     )

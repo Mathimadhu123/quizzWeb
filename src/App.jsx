@@ -8,18 +8,26 @@
 // 2. Creating Functional Components
 // 3. Styling Components
 // 4. Incorporating React Basics
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Header from "./components/header/Header";
-import MainContent from "./components/main/Main";
+import MainContent from "./components/main/MainContent";
 import FooterContent from "./components/footer/footer";
 
 import './App.css';
+import Quizz from "./components/quizz/Quizz";
 
-function App(){
-  return(
+function App() {
+  return (
     <div>
-      <Header />
-      <MainContent />
-      <FooterContent />
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<MainContent />}></Route>
+          <Route path="/quizz" element={<Quizz />}></Route>
+        </Routes>
+        <FooterContent />
+      </Router>
     </div>
   )
 }

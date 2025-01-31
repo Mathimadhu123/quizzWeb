@@ -2,8 +2,9 @@ body{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #02020a;
+  background-color: #656599;
 }
+
 
 
 
@@ -17,7 +18,14 @@ header{
 main{
   text-align: center;
 }
+quizz{
+  text-align: center;
+}
 
 footer{
   text-align: center;
+}
+.customize{
+ background-color: #a0a0d6;
+ color: rgb(12, 12, 12);
 }
